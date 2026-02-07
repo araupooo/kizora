@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kizora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: radial-gradient(circle, #2b2f4a, #0b0d1a);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+      font-family: system-ui, sans-serif;
+      text-align: center;
+    }
+    img {
+      width: 220px;
+      image-rendering: pixelated;
+      animation: wave 2s infinite ease-in-out;
+    }
+    @keyframes wave {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(6deg); }
+      50% { transform: rotate(-6deg); }
+      75% { transform: rotate(6deg); }
+      100% { transform: rotate(0deg); }
+    }
+  </style>
+</head>
+<body>
+  <img src="kizora.png" alt="Kizora">
+  <h1>hallo! i'm kizora</h1>
+</body>
+</html>
